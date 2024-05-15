@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="pl">
+    <meta charset="UTF-8"/>
+    <title>Formularz</title>
+</head>
+<body>
+<h1>możesz wziąć udział w wyborach, ale nie możesz zostać prezydentem</h1>
+<form th:action="@{/zad11/add}" method="post">
+    <p>imie: <input type="text" th:field="${osobaFormularz.imie}" /></p>
+    <p>nazwisko: <input type="text" th:field="${osobaFormularz.nazwisko}" /></p>
+    <p>wiek: <input type="text" th:field="${osobaFormularz.wiek}" /></p>
+    <p><input type="submit" value="Add" /></p>
+</form>
+</body>
+</html>
+
+
