@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.zad1_11.model;
 
 public class Osoba {
 

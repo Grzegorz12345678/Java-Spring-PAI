@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.zad1_11.controller;
 
+import com.example.demo.zad1_11.model.Osoba;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

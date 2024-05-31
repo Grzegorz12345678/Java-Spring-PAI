@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.zad1_11.controller;
 
 import org.springframework.web.bind.annotation.*;
 

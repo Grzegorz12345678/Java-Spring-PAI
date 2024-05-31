@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Internationalization</title>
+</head>
+<body>
+<h1 th:text="#{title}">Title</h1>
+<p th:text="#{city}">Message</p>
+
+<a href="/welcome?lang=en">English</a>
+<a href="/welcome?lang=pl">Polish</a>
+<a href="/welcome?lang=de">Deutsch</a>
+</body>
+</html>
